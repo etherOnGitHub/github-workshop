@@ -2,14 +2,14 @@
 //   /**
 //   * This is a simple Java exploratory program
 //   */
-        byte lol = -127; // 1 byte: -128 to 127
-        short lol2 = -10000; // 2 bytes: -32,768 to 32, 767
-        int lol3 = -1000000; // 4 bytes: –2,147,483,648 to 2,147,483,647
-        long lol4 = -1000000000L; // 8 bytes: –9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-        IO.print("byte = " + lol);
-        IO.print(" short = " + lol2);
-        IO.print(" int = " + lol3);
-        IO.println(" long = " + lol4);
+     byte lol = -127; // 1 byte: -128 to 127
+     short lol2 = -10000; // 2 bytes: -32,768 to 32, 767
+     int lol3 = -1000000; // 4 bytes: –2,147,483,648 to 2,147,483,647
+     long lol4 = -1000000000L; // 8 bytes: –9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+     IO.print("byte = " + lol);
+     IO.print(" short = " + lol2);
+     IO.print(" int = " + lol3);
+     IO.println(" long = " + lol4);
 
      var sum = 4000000000L - 400000000L; // Longs
      IO.println("sum is " + sum);
@@ -34,4 +34,4 @@
      char b = 'B';
      IO.print("char is " + a + "\n");
      IO.print("char is " + b + "\n");
-    }git
+ }
