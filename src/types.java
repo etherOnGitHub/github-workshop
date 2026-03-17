@@ -20,7 +20,7 @@
      var sum4 = 010 * 010; // Octal (8 * 8)
      IO.println("sum is " + sum4);
 
-     int lolU = Byte.toUnsignedInt(lol); // negative values go to opposite side so -128 becomes 128
+     int lolU = Byte.toUnsignedInt(lol); // negative values go to opposite side so -128 becomes 128 (-1 would be 256)
      IO.println("byte to unsigned int = " + lolU);
 
      float floaty = 0.243343F;
