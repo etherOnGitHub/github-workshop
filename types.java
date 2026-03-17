@@ -34,5 +34,4 @@
      char b = 'B';
      IO.print("char is " + a + "\n");
      IO.print("char is " + b + "\n");
-    }
-
+    }git
