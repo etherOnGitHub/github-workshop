@@ -1,7 +1,7 @@
 import java.util.*;
 
-public class setsNMaps {
-    void main() {
+
+void main() {
         // Instant lookup but needs to redraw on new data insert in list via indexing
         ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList.add(2);
@@ -39,4 +39,4 @@ public class setsNMaps {
         map.putIfAbsent("six seven", 1);
         IO.println(map.get("six seven"));
     }
-}
+
