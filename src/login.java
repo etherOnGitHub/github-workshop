@@ -6,18 +6,40 @@ public class login {
         IO.println("Login App: ");
         String Uname = "";
         String Pass = "";
-        byte attempts = 3;
-        for (byte i = 3; i > 0; i--) {
-            IO.println("Enter Username: ");
-            Uname = IO.readln();
-            IO.println("Enter Password: ");
-            Pass = IO.readln();
+        byte attempt = 3;
+//        for (byte i = 3; i > 0; i--) {
+//            IO.println("Enter Username: ");
+//            Uname = IO.readln();
+//            IO.println("Enter Password: ");
+//            Pass = IO.readln();
+//            if (Uname.equals("admin") && Pass.equals("admin")) {
+//                IO.println("Login Successful");
+//                return;
+//            } else  {
+//                IO.println("Access Denied");
+//            }
+//        }
+        while (attempt > 0) {
+            do {
+                IO.println("Type your username and password: ");
+                IO.println("Username: ");
+                Uname = IO.readln();
+                IO.println("Password: ");
+                Pass = IO.readln();
+            } while ((Uname.isEmpty() || Pass.isEmpty()));
             if (Uname.equals("admin") && Pass.equals("admin")) {
-                IO.println("Login Successful");
+                IO.println("Welcome Admin");
                 break;
-            } else  {
-                IO.println("Access Denied");
+            } else {
+                attempt--;
+                IO.println("Denied.");
             }
+
+
+        }
+        if (attempt == 0) {
+            IO.println("Account Locked");
         }
     }
 }
+
