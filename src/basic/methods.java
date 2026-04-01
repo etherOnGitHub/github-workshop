@@ -1,3 +1,5 @@
+package basic;
+
 public class methods {
     void main() {
         print(add(20,2323));

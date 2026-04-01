@@ -1,7 +1,7 @@
 import java.io.File;
 
 void main() {
-    // declare instances of file doesn't create files
+    // declare instances of file doesn't create basic.files
     // paths with folders must create the folder first
     // if not it won't run
     File file = new File("data", "nested.txt");

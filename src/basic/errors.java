@@ -1,8 +1,8 @@
 void main() {
 /*
-Checked errors
+Checked basic.errors
 FileNotFound, IOException
-unchecked errors
+unchecked basic.errors
 NullPointer, Arithmetic
 */
 
